@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560DB55921DDB00200B24067 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560DB55821DDB00200B24067 /* StartVC.swift */; };
 		56AF6D9E21D420E6004D9211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF6D9D21D420E6004D9211 /* AppDelegate.swift */; };
 		56AF6DA021D420E6004D9211 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AF6D9F21D420E6004D9211 /* art.scnassets */; };
 		56AF6DA221D420E6004D9211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF6DA121D420E6004D9211 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		560DB55821DDB00200B24067 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
 		56AF6D9A21D420E6004D9211 /* ARDicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AF6D9D21D420E6004D9211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56AF6D9F21D420E6004D9211 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -100,12 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				56AF6D9D21D420E6004D9211 /* AppDelegate.swift */,
-				56AF6D9F21D420E6004D9211 /* art.scnassets */,
 				56AF6DA121D420E6004D9211 /* ViewController.swift */,
 				56AF6DA321D420E6004D9211 /* Main.storyboard */,
 				56AF6DA621D420E7004D9211 /* Assets.xcassets */,
+				56AF6D9F21D420E6004D9211 /* art.scnassets */,
 				56AF6DA821D420E7004D9211 /* LaunchScreen.storyboard */,
 				56AF6DAB21D420E7004D9211 /* Info.plist */,
+				560DB55821DDB00200B24067 /* StartVC.swift */,
 			);
 			path = ARDicee;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				56AF6DA221D420E6004D9211 /* ViewController.swift in Sources */,
 				56AF6D9E21D420E6004D9211 /* AppDelegate.swift in Sources */,
+				560DB55921DDB00200B24067 /* StartVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L94643B5E;
 				INFOPLIST_FILE = ARDicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L94643B5E;
 				INFOPLIST_FILE = ARDicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
